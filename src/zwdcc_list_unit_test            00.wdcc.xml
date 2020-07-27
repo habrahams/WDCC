@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_WDCC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <OBJECT_NAME>ZWDCC_LIST_UNIT_TEST            00</OBJECT_NAME>
+   <CONFIG_ID>ZWDCC_LIST_UNIT_TEST</CONFIG_ID>
+   <WDA_COMPONENT>FPM_LIST_UIBB_ATS</WDA_COMPONENT>
+   <COMPONENT_CONFIGURATION_READABLE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;Component Name=&quot;FPM_LIST_UIBB_ATS&quot; ConfId=&quot;ZWDCC_LIST_UNIT_TEST&quot; ConfType=&quot;00&quot; ConfVar=&quot;&quot;&gt;
+ &lt;Node Name=&quot;CONFIGURATION_CONTEXT&quot; SimpleFormat=&quot;true&quot;&gt;
+  &lt;Item Index=&quot;000001&quot; SimpleFormat=&quot;true&quot;&gt;
+   &lt;Node Name=&quot;LIST&quot; SimpleFormat=&quot;true&quot;&gt;
+    &lt;Item Index=&quot;000001&quot; SimpleFormat=&quot;true&quot;&gt;
+     &lt;FEEDER&gt;CL_HRPAO_GUIBB_PA_LIST&lt;/FEEDER&gt;
+     &lt;Node Name=&quot;BUTTON_ROW&quot; SimpleFormat=&quot;true&quot;/&gt;
+     &lt;Node Name=&quot;COLUMN&quot; SimpleFormat=&quot;true&quot;&gt;
+      &lt;Item Index=&quot;000001&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;ELEMENT_ID Final=&quot;5 &quot;&gt;_GENP_0050568C7F901ED7848DB996C8BB52EF&lt;/ELEMENT_ID&gt;
+       &lt;NAME&gt;FPM_ROW_ACTIONS_COLUMN&lt;/NAME&gt;
+       &lt;DISPLAY_TYPE&gt;LA&lt;/DISPLAY_TYPE&gt;
+       &lt;INDEX&gt;1 &lt;/INDEX&gt;
+       &lt;WIDTH&gt;6%&lt;/WIDTH&gt;
+       &lt;FIXED/&gt;
+       &lt;Node Name=&quot;COLUMN_ACTION&quot; SimpleFormat=&quot;true&quot;/&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000002&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;ELEMENT_ID Final=&quot;5 &quot;&gt;_GENP_0050568C7F901ED984FCBDAB06BA564D&lt;/ELEMENT_ID&gt;
+       &lt;NAME&gt;BEGDA&lt;/NAME&gt;
+       &lt;DISPLAY_TYPE&gt;TV&lt;/DISPLAY_TYPE&gt;
+       &lt;INDEX&gt;2 &lt;/INDEX&gt;
+       &lt;HEADER Transl=&quot;true&quot;/&gt;
+       &lt;SPECIAL_PROPERTIES/&gt;
+       &lt;WIDTH/&gt;
+       &lt;TAG_ACTIVE/&gt;
+       &lt;TAG/&gt;
+       &lt;TOOLTIP Transl=&quot;true&quot;/&gt;
+       &lt;VISIBILITY/&gt;
+       &lt;FIXED&gt;01&lt;/FIXED&gt;
+       &lt;TOOLTIP_HEADER Transl=&quot;true&quot;/&gt;
+       &lt;CTXT_MENU_ID/&gt;
+       &lt;INSTANCE_STYLE/&gt;
+       &lt;HEADER_INSTANCE_STYLE/&gt;
+       &lt;Node Name=&quot;COLUMN_ACTION&quot; SimpleFormat=&quot;true&quot;/&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000003&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;ELEMENT_ID Final=&quot;5 &quot;&gt;_GENP_0050568C7F901ED984FCBDE7EEEF564D&lt;/ELEMENT_ID&gt;
+       &lt;NAME&gt;ENDDA&lt;/NAME&gt;
+       &lt;DISPLAY_TYPE&gt;TV&lt;/DISPLAY_TYPE&gt;
+       &lt;INDEX&gt;3 &lt;/INDEX&gt;
+       &lt;HEADER Transl=&quot;true&quot;/&gt;
+       &lt;SPECIAL_PROPERTIES/&gt;
+       &lt;WIDTH/&gt;
+       &lt;TAG_ACTIVE/&gt;
+       &lt;TAG/&gt;
+       &lt;TOOLTIP Transl=&quot;true&quot;/&gt;
+       &lt;VISIBILITY/&gt;
+       &lt;FIXED&gt;01&lt;/FIXED&gt;
+       &lt;TOOLTIP_HEADER Transl=&quot;true&quot;/&gt;
+       &lt;CTXT_MENU_ID/&gt;
+       &lt;INSTANCE_STYLE/&gt;
+       &lt;HEADER_INSTANCE_STYLE/&gt;
+       &lt;Node Name=&quot;COLUMN_ACTION&quot; SimpleFormat=&quot;true&quot;/&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000004&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;ELEMENT_ID Final=&quot;5 &quot;&gt;_GENP_0050568C7F901ED7848DBB710F1012EF&lt;/ELEMENT_ID&gt;
+       &lt;NAME&gt;BNOPT&lt;/NAME&gt;
+       &lt;DISPLAY_TYPE&gt;TV&lt;/DISPLAY_TYPE&gt;
+       &lt;INDEX&gt;4 &lt;/INDEX&gt;
+       &lt;HEADER Transl=&quot;true&quot;&gt;14&lt;/HEADER&gt;
+       &lt;SPECIAL_PROPERTIES/&gt;
+       &lt;WIDTH/&gt;
+       &lt;TAG_ACTIVE/&gt;
+       &lt;TAG/&gt;
+       &lt;TOOLTIP Transl=&quot;true&quot;/&gt;
+       &lt;VISIBILITY/&gt;
+       &lt;FIXED&gt;01&lt;/FIXED&gt;
+       &lt;TOOLTIP_HEADER Transl=&quot;true&quot;/&gt;
+       &lt;CTXT_MENU_ID/&gt;
+       &lt;INSTANCE_STYLE/&gt;
+       &lt;HEADER_INSTANCE_STYLE/&gt;
+       &lt;Node Name=&quot;COLUMN_ACTION&quot; SimpleFormat=&quot;true&quot;/&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000005&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;ELEMENT_ID Final=&quot;5 &quot;&gt;_GENP_0050568C7F901ED7848DC17A329C12FE&lt;/ELEMENT_ID&gt;
+       &lt;NAME&gt;TCLID_TXT&lt;/NAME&gt;
+       &lt;DISPLAY_TYPE&gt;TV&lt;/DISPLAY_TYPE&gt;
+       &lt;INDEX&gt;5 &lt;/INDEX&gt;
+       &lt;HEADER Transl=&quot;true&quot;&gt;15&lt;/HEADER&gt;
+       &lt;SPECIAL_PROPERTIES/&gt;
+       &lt;WIDTH/&gt;
+       &lt;TAG_ACTIVE/&gt;
+       &lt;TAG/&gt;
+       &lt;TOOLTIP Transl=&quot;true&quot;/&gt;
+       &lt;VISIBILITY/&gt;
+       &lt;FIXED&gt;01&lt;/FIXED&gt;
+       &lt;TOOLTIP_HEADER Transl=&quot;true&quot;/&gt;
+       &lt;CTXT_MENU_ID/&gt;
+       &lt;INSTANCE_STYLE/&gt;
+       &lt;HEADER_INSTANCE_STYLE/&gt;
+       &lt;Node Name=&quot;COLUMN_ACTION&quot; SimpleFormat=&quot;true&quot;/&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000006&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;ELEMENT_ID Final=&quot;5 &quot;&gt;_GENP_0050568C7F901ED7848DC237B7CC12FE&lt;/ELEMENT_ID&gt;
+       &lt;NAME&gt;EXRSN&lt;/NAME&gt;
+       &lt;DISPLAY_TYPE&gt;TV&lt;/DISPLAY_TYPE&gt;
+       &lt;INDEX&gt;6 &lt;/INDEX&gt;
+       &lt;HEADER Transl=&quot;true&quot;&gt;16&lt;/HEADER&gt;
+       &lt;SPECIAL_PROPERTIES/&gt;
+       &lt;WIDTH/&gt;
+       &lt;TAG_ACTIVE/&gt;
+       &lt;TAG/&gt;
+       &lt;TOOLTIP Transl=&quot;true&quot;/&gt;
+       &lt;VISIBILITY/&gt;
+       &lt;FIXED&gt;01&lt;/FIXED&gt;
+       &lt;TOOLTIP_HEADER Transl=&quot;true&quot;/&gt;
+       &lt;CTXT_MENU_ID/&gt;
+       &lt;INSTANCE_STYLE/&gt;
+       &lt;HEADER_INSTANCE_STYLE/&gt;
+       &lt;Node Name=&quot;COLUMN_ACTION&quot; SimpleFormat=&quot;true&quot;/&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000007&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;ELEMENT_ID Final=&quot;5 &quot;&gt;_GENP_0050568C7F901ED7848DC29C1F065300&lt;/ELEMENT_ID&gt;
+       &lt;NAME&gt;EXRSN_TXT&lt;/NAME&gt;
+       &lt;DISPLAY_TYPE&gt;TV&lt;/DISPLAY_TYPE&gt;
+       &lt;INDEX&gt;7 &lt;/INDEX&gt;
+       &lt;HEADER Transl=&quot;true&quot;&gt;13&lt;/HEADER&gt;
+       &lt;SPECIAL_PROPERTIES/&gt;
+       &lt;WIDTH/&gt;
+       &lt;TAG_ACTIVE/&gt;
+       &lt;TAG/&gt;
+       &lt;TOOLTIP Transl=&quot;true&quot;/&gt;
+       &lt;VISIBILITY/&gt;
+       &lt;FIXED&gt;01&lt;/FIXED&gt;
+       &lt;TOOLTIP_HEADER Transl=&quot;true&quot;/&gt;
+       &lt;CTXT_MENU_ID/&gt;
+       &lt;INSTANCE_STYLE/&gt;
+       &lt;HEADER_INSTANCE_STYLE/&gt;
+       &lt;Node Name=&quot;COLUMN_ACTION&quot; SimpleFormat=&quot;true&quot;/&gt;
+      &lt;/Item&gt;
+     &lt;/Node&gt;
+     &lt;Node Name=&quot;CTXT_MENU&quot; SimpleFormat=&quot;true&quot;/&gt;
+     &lt;Node Name=&quot;DRAG_DROP&quot; SimpleFormat=&quot;true&quot;/&gt;
+     &lt;Node Name=&quot;PARAMETER&quot; SimpleFormat=&quot;true&quot;&gt;
+      &lt;Item Index=&quot;000001&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;NAME Final=&quot;5 &quot;&gt;COMPONENT_NAME&lt;/NAME&gt;
+       &lt;VALUE&gt;HRPAD&lt;/VALUE&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000002&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;NAME Final=&quot;5 &quot;&gt;OBJECT_NAME&lt;/NAME&gt;
+       &lt;VALUE&gt;IT9315&lt;/VALUE&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000003&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;NAME Final=&quot;5 &quot;&gt;EDIT_MODE&lt;/NAME&gt;
+       &lt;VALUE/&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000004&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;NAME Final=&quot;5 &quot;&gt;JOINED_OBJECTS&lt;/NAME&gt;
+       &lt;VALUE&gt;﻿&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;lt;asx:abap xmlns:asx=&amp;quot;http://www.sap.com/abapxml&amp;quot; version=&amp;quot;1.0&amp;quot;&amp;gt;&amp;lt;asx:values&amp;gt;&amp;lt;DATA/&amp;gt;&amp;lt;/asx:values&amp;gt;&amp;lt;/asx:abap&amp;gt;&lt;/VALUE&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000005&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;NAME Final=&quot;5 &quot;&gt;INIT_LEAD_SEL&lt;/NAME&gt;
+       &lt;VALUE&gt;X&lt;/VALUE&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000006&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;NAME Final=&quot;5 &quot;&gt;FAST_ENTRY_MODE&lt;/NAME&gt;
+       &lt;VALUE&gt;00&lt;/VALUE&gt;
+      &lt;/Item&gt;
+     &lt;/Node&gt;
+     &lt;Node Name=&quot;QUICKVIEW&quot; SimpleFormat=&quot;true&quot;/&gt;
+     &lt;Node Name=&quot;ROW_ACTIONS&quot; SimpleFormat=&quot;true&quot;&gt;
+      &lt;Item Index=&quot;000001&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;ELEMENT_ID Final=&quot;5 &quot;&gt;_GENP_0050568C7F901ED7848DB996C8BB72EF&lt;/ELEMENT_ID&gt;
+       &lt;EVENT_ID&gt;FPM_BOL_ROW_DELETE&lt;/EVENT_ID&gt;
+       &lt;INDEX&gt;1 &lt;/INDEX&gt;
+       &lt;IMAGE_SOURCE&gt;~Icon/Delete&lt;/IMAGE_SOURCE&gt;
+      &lt;/Item&gt;
+      &lt;Item Index=&quot;000002&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;ELEMENT_ID Final=&quot;5 &quot;&gt;_GENP_0050568C7F901ED7848DB996C8BB92EF&lt;/ELEMENT_ID&gt;
+       &lt;EVENT_ID&gt;EDIT&lt;/EVENT_ID&gt;
+       &lt;INDEX&gt;2 &lt;/INDEX&gt;
+       &lt;IMAGE_SOURCE&gt;~Icon/Edit&lt;/IMAGE_SOURCE&gt;
+      &lt;/Item&gt;
+     &lt;/Node&gt;
+     &lt;Node Name=&quot;SETTINGS&quot; SimpleFormat=&quot;true&quot;&gt;
+      &lt;Item Index=&quot;000001&quot; SimpleFormat=&quot;true&quot;&gt;
+       &lt;VISIBLE_ROW_COUNT&gt;5 &lt;/VISIBLE_ROW_COUNT&gt;
+       &lt;VISIBLE_COL_COUNT&gt;5 &lt;/VISIBLE_COL_COUNT&gt;
+       &lt;SEL_EVENT_TYPE&gt;X&lt;/SEL_EVENT_TYPE&gt;
+       &lt;ALLOW_PERSONALIZATION&gt;Y&lt;/ALLOW_PERSONALIZATION&gt;
+       &lt;ALLOW_CALCULATION&gt;02&lt;/ALLOW_CALCULATION&gt;
+       &lt;ALLOW_GROUPING/&gt;
+       &lt;SCROLL_MODE/&gt;
+       &lt;ARIA_LANDMARK/&gt;
+       &lt;ALLOW_SORTING/&gt;
+       &lt;EXPORT_FORMAT&gt;XLSX&lt;/EXPORT_FORMAT&gt;
+      &lt;/Item&gt;
+     &lt;/Node&gt;
+    &lt;/Item&gt;
+   &lt;/Node&gt;
+  &lt;/Item&gt;
+ &lt;/Node&gt;
+&lt;/Component&gt;
+</COMPONENT_CONFIGURATION_READABLE>
+   <COMPONENT_CONFIGURATION_RAW>PD94bWwgdmVyc2lvbj0iMS4wIj8+PENvbXBvbmVudCBOYW1lPSJGUE1fTElTVF9VSUJCX0FUUyIg
+Q29uZklkPSJaV0RDQ19MSVNUX1VOSVRfVEVTVCIgQ29uZlR5cGU9IjAwIiBDb25mVmFyPSIiPjxO
+b2RlIE5hbWU9IkNPTkZJR1VSQVRJT05fQ09OVEVYVCIgU2ltcGxlRm9ybWF0PSJ0cnVlIj48SXRl
+bSBJbmRleD0iMDAwMDAxIiBTaW1wbGVGb3JtYXQ9InRydWUiPjxOb2RlIE5hbWU9IkxJU1QiIFNp
+bXBsZUZvcm1hdD0idHJ1ZSI+PEl0ZW0gSW5kZXg9IjAwMDAwMSIgU2ltcGxlRm9ybWF0PSJ0cnVl
+Ij48RkVFREVSPkNMX0hSUEFPX0dVSUJCX1BBX0xJU1Q8L0ZFRURFUj48Tm9kZSBOYW1lPSJCVVRU
+T05fUk9XIiBTaW1wbGVGb3JtYXQ9InRydWUiLz48Tm9kZSBOYW1lPSJDT0xVTU4iIFNpbXBsZUZv
+cm1hdD0idHJ1ZSI+PEl0ZW0gSW5kZXg9IjAwMDAwMSIgU2ltcGxlRm9ybWF0PSJ0cnVlIj48RUxF
+TUVOVF9JRCBGaW5hbD0iNSAiPl9HRU5QXzAwNTA1NjhDN0Y5MDFFRDc4NDhEQjk5NkM4QkI1MkVG
+PC9FTEVNRU5UX0lEPjxOQU1FPkZQTV9ST1dfQUNUSU9OU19DT0xVTU48L05BTUU+PERJU1BMQVlf
+VFlQRT5MQTwvRElTUExBWV9UWVBFPjxJTkRFWD4xIDwvSU5ERVg+PFdJRFRIPjYlPC9XSURUSD48
+RklYRUQ+PC9GSVhFRD48Tm9kZSBOYW1lPSJDT0xVTU5fQUNUSU9OIiBTaW1wbGVGb3JtYXQ9InRy
+dWUiLz48L0l0ZW0+PEl0ZW0gSW5kZXg9IjAwMDAwMiIgU2ltcGxlRm9ybWF0PSJ0cnVlIj48RUxF
+TUVOVF9JRCBGaW5hbD0iNSAiPl9HRU5QXzAwNTA1NjhDN0Y5MDFFRDk4NEZDQkRBQjA2QkE1NjRE
+PC9FTEVNRU5UX0lEPjxOQU1FPkJFR0RBPC9OQU1FPjxESVNQTEFZX1RZUEU+VFY8L0RJU1BMQVlf
+VFlQRT48SU5ERVg+MiA8L0lOREVYPjxIRUFERVIgVHJhbnNsPSJ0cnVlIj48L0hFQURFUj48U1BF
+Q0lBTF9QUk9QRVJUSUVTPjwvU1BFQ0lBTF9QUk9QRVJUSUVTPjxXSURUSD48L1dJRFRIPjxUQUdf
+QUNUSVZFPjwvVEFHX0FDVElWRT48VEFHPjwvVEFHPjxUT09MVElQIFRyYW5zbD0idHJ1ZSI+PC9U
+T09MVElQPjxWSVNJQklMSVRZPjwvVklTSUJJTElUWT48RklYRUQ+MDE8L0ZJWEVEPjxUT09MVElQ
+X0hFQURFUiBUcmFuc2w9InRydWUiPjwvVE9PTFRJUF9IRUFERVI+PENUWFRfTUVOVV9JRD48L0NU
+WFRfTUVOVV9JRD48SU5TVEFOQ0VfU1RZTEU+PC9JTlNUQU5DRV9TVFlMRT48SEVBREVSX0lOU1RB
+TkNFX1NUWUxFPjwvSEVBREVSX0lOU1RBTkNFX1NUWUxFPjxOb2RlIE5hbWU9IkNPTFVNTl9BQ1RJ
+T04iIFNpbXBsZUZvcm1hdD0idHJ1ZSIvPjwvSXRlbT48SXRlbSBJbmRleD0iMDAwMDAzIiBTaW1w
+bGVGb3JtYXQ9InRydWUiPjxFTEVNRU5UX0lEIEZpbmFsPSI1ICI+X0dFTlBfMDA1MDU2OEM3Rjkw
+MUVEOTg0RkNCREU3RUVFRjU2NEQ8L0VMRU1FTlRfSUQ+PE5BTUU+RU5EREE8L05BTUU+PERJU1BM
+QVlfVFlQRT5UVjwvRElTUExBWV9UWVBFPjxJTkRFWD4zIDwvSU5ERVg+PEhFQURFUiBUcmFuc2w9
+InRydWUiPjwvSEVBREVSPjxTUEVDSUFMX1BST1BFUlRJRVM+PC9TUEVDSUFMX1BST1BFUlRJRVM+
+PFdJRFRIPjwvV0lEVEg+PFRBR19BQ1RJVkU+PC9UQUdfQUNUSVZFPjxUQUc+PC9UQUc+PFRPT0xU
+SVAgVHJhbnNsPSJ0cnVlIj48L1RPT0xUSVA+PFZJU0lCSUxJVFk+PC9WSVNJQklMSVRZPjxGSVhF
+RD4wMTwvRklYRUQ+PFRPT0xUSVBfSEVBREVSIFRyYW5zbD0idHJ1ZSI+PC9UT09MVElQX0hFQURF
+Uj48Q1RYVF9NRU5VX0lEPjwvQ1RYVF9NRU5VX0lEPjxJTlNUQU5DRV9TVFlMRT48L0lOU1RBTkNF
+X1NUWUxFPjxIRUFERVJfSU5TVEFOQ0VfU1RZTEU+PC9IRUFERVJfSU5TVEFOQ0VfU1RZTEU+PE5v
+ZGUgTmFtZT0iQ09MVU1OX0FDVElPTiIgU2ltcGxlRm9ybWF0PSJ0cnVlIi8+PC9JdGVtPjxJdGVt
+IEluZGV4PSIwMDAwMDQiIFNpbXBsZUZvcm1hdD0idHJ1ZSI+PEVMRU1FTlRfSUQgRmluYWw9IjUg
+Ij5fR0VOUF8wMDUwNTY4QzdGOTAxRUQ3ODQ4REJCNzEwRjEwMTJFRjwvRUxFTUVOVF9JRD48TkFN
+RT5CTk9QVDwvTkFNRT48RElTUExBWV9UWVBFPlRWPC9ESVNQTEFZX1RZUEU+PElOREVYPjQgPC9J
+TkRFWD48SEVBREVSIFRyYW5zbD0idHJ1ZSI+MTQ8L0hFQURFUj48U1BFQ0lBTF9QUk9QRVJUSUVT
+PjwvU1BFQ0lBTF9QUk9QRVJUSUVTPjxXSURUSD48L1dJRFRIPjxUQUdfQUNUSVZFPjwvVEFHX0FD
+VElWRT48VEFHPjwvVEFHPjxUT09MVElQIFRyYW5zbD0idHJ1ZSI+PC9UT09MVElQPjxWSVNJQklM
+SVRZPjwvVklTSUJJTElUWT48RklYRUQ+MDE8L0ZJWEVEPjxUT09MVElQX0hFQURFUiBUcmFuc2w9
+InRydWUiPjwvVE9PTFRJUF9IRUFERVI+PENUWFRfTUVOVV9JRD48L0NUWFRfTUVOVV9JRD48SU5T
+VEFOQ0VfU1RZTEU+PC9JTlNUQU5DRV9TVFlMRT48SEVBREVSX0lOU1RBTkNFX1NUWUxFPjwvSEVB
+REVSX0lOU1RBTkNFX1NUWUxFPjxOb2RlIE5hbWU9IkNPTFVNTl9BQ1RJT04iIFNpbXBsZUZvcm1h
+dD0idHJ1ZSIvPjwvSXRlbT48SXRlbSBJbmRleD0iMDAwMDA1IiBTaW1wbGVGb3JtYXQ9InRydWUi
+PjxFTEVNRU5UX0lEIEZpbmFsPSI1ICI+X0dFTlBfMDA1MDU2OEM3RjkwMUVENzg0OERDMTdBMzI5
+QzEyRkU8L0VMRU1FTlRfSUQ+PE5BTUU+VENMSURfVFhUPC9OQU1FPjxESVNQTEFZX1RZUEU+VFY8
+L0RJU1BMQVlfVFlQRT48SU5ERVg+NSA8L0lOREVYPjxIRUFERVIgVHJhbnNsPSJ0cnVlIj4xNTwv
+SEVBREVSPjxTUEVDSUFMX1BST1BFUlRJRVM+PC9TUEVDSUFMX1BST1BFUlRJRVM+PFdJRFRIPjwv
+V0lEVEg+PFRBR19BQ1RJVkU+PC9UQUdfQUNUSVZFPjxUQUc+PC9UQUc+PFRPT0xUSVAgVHJhbnNs
+PSJ0cnVlIj48L1RPT0xUSVA+PFZJU0lCSUxJVFk+PC9WSVNJQklMSVRZPjxGSVhFRD4wMTwvRklY
+RUQ+PFRPT0xUSVBfSEVBREVSIFRyYW5zbD0idHJ1ZSI+PC9UT09MVElQX0hFQURFUj48Q1RYVF9N
+RU5VX0lEPjwvQ1RYVF9NRU5VX0lEPjxJTlNUQU5DRV9TVFlMRT48L0lOU1RBTkNFX1NUWUxFPjxI
+RUFERVJfSU5TVEFOQ0VfU1RZTEU+PC9IRUFERVJfSU5TVEFOQ0VfU1RZTEU+PE5vZGUgTmFtZT0i
+Q09MVU1OX0FDVElPTiIgU2ltcGxlRm9ybWF0PSJ0cnVlIi8+PC9JdGVtPjxJdGVtIEluZGV4PSIw
+MDAwMDYiIFNpbXBsZUZvcm1hdD0idHJ1ZSI+PEVMRU1FTlRfSUQgRmluYWw9IjUgIj5fR0VOUF8w
+MDUwNTY4QzdGOTAxRUQ3ODQ4REMyMzdCN0NDMTJGRTwvRUxFTUVOVF9JRD48TkFNRT5FWFJTTjwv
+TkFNRT48RElTUExBWV9UWVBFPlRWPC9ESVNQTEFZX1RZUEU+PElOREVYPjYgPC9JTkRFWD48SEVB
+REVSIFRyYW5zbD0idHJ1ZSI+MTY8L0hFQURFUj48U1BFQ0lBTF9QUk9QRVJUSUVTPjwvU1BFQ0lB
+TF9QUk9QRVJUSUVTPjxXSURUSD48L1dJRFRIPjxUQUdfQUNUSVZFPjwvVEFHX0FDVElWRT48VEFH
+PjwvVEFHPjxUT09MVElQIFRyYW5zbD0idHJ1ZSI+PC9UT09MVElQPjxWSVNJQklMSVRZPjwvVklT
+SUJJTElUWT48RklYRUQ+MDE8L0ZJWEVEPjxUT09MVElQX0hFQURFUiBUcmFuc2w9InRydWUiPjwv
+VE9PTFRJUF9IRUFERVI+PENUWFRfTUVOVV9JRD48L0NUWFRfTUVOVV9JRD48SU5TVEFOQ0VfU1RZ
+TEU+PC9JTlNUQU5DRV9TVFlMRT48SEVBREVSX0lOU1RBTkNFX1NUWUxFPjwvSEVBREVSX0lOU1RB
+TkNFX1NUWUxFPjxOb2RlIE5hbWU9IkNPTFVNTl9BQ1RJT04iIFNpbXBsZUZvcm1hdD0idHJ1ZSIv
+PjwvSXRlbT48SXRlbSBJbmRleD0iMDAwMDA3IiBTaW1wbGVGb3JtYXQ9InRydWUiPjxFTEVNRU5U
+X0lEIEZpbmFsPSI1ICI+X0dFTlBfMDA1MDU2OEM3RjkwMUVENzg0OERDMjlDMUYwNjUzMDA8L0VM
+RU1FTlRfSUQ+PE5BTUU+RVhSU05fVFhUPC9OQU1FPjxESVNQTEFZX1RZUEU+VFY8L0RJU1BMQVlf
+VFlQRT48SU5ERVg+NyA8L0lOREVYPjxIRUFERVIgVHJhbnNsPSJ0cnVlIj4xMzwvSEVBREVSPjxT
+UEVDSUFMX1BST1BFUlRJRVM+PC9TUEVDSUFMX1BST1BFUlRJRVM+PFdJRFRIPjwvV0lEVEg+PFRB
+R19BQ1RJVkU+PC9UQUdfQUNUSVZFPjxUQUc+PC9UQUc+PFRPT0xUSVAgVHJhbnNsPSJ0cnVlIj48
+L1RPT0xUSVA+PFZJU0lCSUxJVFk+PC9WSVNJQklMSVRZPjxGSVhFRD4wMTwvRklYRUQ+PFRPT0xU
+SVBfSEVBREVSIFRyYW5zbD0idHJ1ZSI+PC9UT09MVElQX0hFQURFUj48Q1RYVF9NRU5VX0lEPjwv
+Q1RYVF9NRU5VX0lEPjxJTlNUQU5DRV9TVFlMRT48L0lOU1RBTkNFX1NUWUxFPjxIRUFERVJfSU5T
+VEFOQ0VfU1RZTEU+PC9IRUFERVJfSU5TVEFOQ0VfU1RZTEU+PE5vZGUgTmFtZT0iQ09MVU1OX0FD
+VElPTiIgU2ltcGxlRm9ybWF0PSJ0cnVlIi8+PC9JdGVtPjwvTm9kZT48Tm9kZSBOYW1lPSJDVFhU
+X01FTlUiIFNpbXBsZUZvcm1hdD0idHJ1ZSIvPjxOb2RlIE5hbWU9IkRSQUdfRFJPUCIgU2ltcGxl
+Rm9ybWF0PSJ0cnVlIi8+PE5vZGUgTmFtZT0iUEFSQU1FVEVSIiBTaW1wbGVGb3JtYXQ9InRydWUi
+PjxJdGVtIEluZGV4PSIwMDAwMDEiIFNpbXBsZUZvcm1hdD0idHJ1ZSI+PE5BTUUgRmluYWw9IjUg
+Ij5DT01QT05FTlRfTkFNRTwvTkFNRT48VkFMVUU+SFJQQUQ8L1ZBTFVFPjwvSXRlbT48SXRlbSBJ
+bmRleD0iMDAwMDAyIiBTaW1wbGVGb3JtYXQ9InRydWUiPjxOQU1FIEZpbmFsPSI1ICI+T0JKRUNU
+X05BTUU8L05BTUU+PFZBTFVFPklUOTMxNTwvVkFMVUU+PC9JdGVtPjxJdGVtIEluZGV4PSIwMDAw
+MDMiIFNpbXBsZUZvcm1hdD0idHJ1ZSI+PE5BTUUgRmluYWw9IjUgIj5FRElUX01PREU8L05BTUU+
+PFZBTFVFPjwvVkFMVUU+PC9JdGVtPjxJdGVtIEluZGV4PSIwMDAwMDQiIFNpbXBsZUZvcm1hdD0i
+dHJ1ZSI+PE5BTUUgRmluYWw9IjUgIj5KT0lORURfT0JKRUNUUzwvTkFNRT48VkFMVUU+77u/Jmx0
+Oz94bWwgdmVyc2lvbj0mcXVvdDsxLjAmcXVvdDsgZW5jb2Rpbmc9JnF1b3Q7dXRmLTE2JnF1b3Q7
+PyZndDsmbHQ7YXN4OmFiYXAgeG1sbnM6YXN4PSZxdW90O2h0dHA6Ly93d3cuc2FwLmNvbS9hYmFw
+eG1sJnF1b3Q7IHZlcnNpb249JnF1b3Q7MS4wJnF1b3Q7Jmd0OyZsdDthc3g6dmFsdWVzJmd0OyZs
+dDtEQVRBLyZndDsmbHQ7L2FzeDp2YWx1ZXMmZ3Q7Jmx0Oy9hc3g6YWJhcCZndDs8L1ZBTFVFPjwv
+SXRlbT48SXRlbSBJbmRleD0iMDAwMDA1IiBTaW1wbGVGb3JtYXQ9InRydWUiPjxOQU1FIEZpbmFs
+PSI1ICI+SU5JVF9MRUFEX1NFTDwvTkFNRT48VkFMVUU+WDwvVkFMVUU+PC9JdGVtPjxJdGVtIElu
+ZGV4PSIwMDAwMDYiIFNpbXBsZUZvcm1hdD0idHJ1ZSI+PE5BTUUgRmluYWw9IjUgIj5GQVNUX0VO
+VFJZX01PREU8L05BTUU+PFZBTFVFPjAwPC9WQUxVRT48L0l0ZW0+PC9Ob2RlPjxOb2RlIE5hbWU9
+IlFVSUNLVklFVyIgU2ltcGxlRm9ybWF0PSJ0cnVlIi8+PE5vZGUgTmFtZT0iUk9XX0FDVElPTlMi
+IFNpbXBsZUZvcm1hdD0idHJ1ZSI+PEl0ZW0gSW5kZXg9IjAwMDAwMSIgU2ltcGxlRm9ybWF0PSJ0
+cnVlIj48RUxFTUVOVF9JRCBGaW5hbD0iNSAiPl9HRU5QXzAwNTA1NjhDN0Y5MDFFRDc4NDhEQjk5
+NkM4QkI3MkVGPC9FTEVNRU5UX0lEPjxFVkVOVF9JRD5GUE1fQk9MX1JPV19ERUxFVEU8L0VWRU5U
+X0lEPjxJTkRFWD4xIDwvSU5ERVg+PElNQUdFX1NPVVJDRT5+SWNvbi9EZWxldGU8L0lNQUdFX1NP
+VVJDRT48L0l0ZW0+PEl0ZW0gSW5kZXg9IjAwMDAwMiIgU2ltcGxlRm9ybWF0PSJ0cnVlIj48RUxF
+TUVOVF9JRCBGaW5hbD0iNSAiPl9HRU5QXzAwNTA1NjhDN0Y5MDFFRDc4NDhEQjk5NkM4QkI5MkVG
+PC9FTEVNRU5UX0lEPjxFVkVOVF9JRD5FRElUPC9FVkVOVF9JRD48SU5ERVg+MiA8L0lOREVYPjxJ
+TUFHRV9TT1VSQ0U+fkljb24vRWRpdDwvSU1BR0VfU09VUkNFPjwvSXRlbT48L05vZGU+PE5vZGUg
+TmFtZT0iU0VUVElOR1MiIFNpbXBsZUZvcm1hdD0idHJ1ZSI+PEl0ZW0gSW5kZXg9IjAwMDAwMSIg
+U2ltcGxlRm9ybWF0PSJ0cnVlIj48VklTSUJMRV9ST1dfQ09VTlQ+NSA8L1ZJU0lCTEVfUk9XX0NP
+VU5UPjxWSVNJQkxFX0NPTF9DT1VOVD41IDwvVklTSUJMRV9DT0xfQ09VTlQ+PFNFTF9FVkVOVF9U
+WVBFPlg8L1NFTF9FVkVOVF9UWVBFPjxBTExPV19QRVJTT05BTElaQVRJT04+WTwvQUxMT1dfUEVS
+U09OQUxJWkFUSU9OPjxBTExPV19DQUxDVUxBVElPTj4wMjwvQUxMT1dfQ0FMQ1VMQVRJT04+PEFM
+TE9XX0dST1VQSU5HPjwvQUxMT1dfR1JPVVBJTkc+PFNDUk9MTF9NT0RFPjwvU0NST0xMX01PREU+
+PEFSSUFfTEFORE1BUks+PC9BUklBX0xBTkRNQVJLPjxBTExPV19TT1JUSU5HPjwvQUxMT1dfU09S
+VElORz48RVhQT1JUX0ZPUk1BVD5YTFNYPC9FWFBPUlRfRk9STUFUPjwvSXRlbT48L05vZGU+PC9J
+dGVtPjwvTm9kZT48L0l0ZW0+PC9Ob2RlPjwvQ29tcG9uZW50Pg==</COMPONENT_CONFIGURATION_RAW>
+   <OTR_TEXT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZWDCC_LIST_UNIT_TEST</CONFIG_ID>
+     <LANGU>E</LANGU>
+     <TEXT_ID>13</TEXT_ID>
+     <DESCRIPTION>Reasons Text</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZWDCC_LIST_UNIT_TEST</CONFIG_ID>
+     <LANGU>E</LANGU>
+     <TEXT_ID>14</TEXT_ID>
+     <DESCRIPTION>Option</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZWDCC_LIST_UNIT_TEST</CONFIG_ID>
+     <LANGU>E</LANGU>
+     <TEXT_ID>15</TEXT_ID>
+     <DESCRIPTION>Text</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZWDCC_LIST_UNIT_TEST</CONFIG_ID>
+     <LANGU>E</LANGU>
+     <TEXT_ID>16</TEXT_ID>
+     <DESCRIPTION>Reason</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+   </OTR_TEXT>
+   <DESCR_LANG>
+    <WDY_CONFIG_DATT>
+     <CONFIG_ID>ZWDCC_LIST_UNIT_TEST</CONFIG_ID>
+     <LANGU>E</LANGU>
+     <DESCRIPTION>List View Unit Tests</DESCRIPTION>
+    </WDY_CONFIG_DATT>
+   </DESCR_LANG>
+  </asx:values>
+ </asx:abap>
+</abapGit>
